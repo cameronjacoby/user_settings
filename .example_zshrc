@@ -53,14 +53,10 @@ plugins=(brew git npm z)
 
 # User configuration
 
-export PATH=$HOME/bin:/usr/local/bin:$PATH
+export PATH="/usr/local/bin:/usr/bin:/bin:/usr/local/sbin:/usr/sbin:/sbin:$PATH"
 # export MANPATH="/usr/local/man:$MANPATH"
 
-# RVM
-export PATH="/usr/local/bin:/usr/local/bin:/usr/local/bin:/Users/cameronjacoby/.rvm/gems/ruby-2.1.2/bin:/Users/cameronjacoby/.rvm/gems/ruby-2.1.2@global/bin:/Users/cameronjacoby/.rvm/rubies/ruby-2.1.2/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/Users/cameronjacoby/.rvm/bin"
-
-# Postgres.app
-export PATH=$PATH/bin:/sbin:/usr/bin:/usr/local/sbin:/usr/local/bin:/Applications/Postgres.app/Contents/Versions/9.3/bin
+export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
 
 source $ZSH/oh-my-zsh.sh
 
@@ -95,3 +91,7 @@ alias gphm="git push heroku master"
 alias gpo="git push origin"
 alias gpom="git push origin master"
 alias gs="git status"
+alias psql fashionthing_dev="psql -d fashionthing_dev -U stitchfix_owner -W"
+alias psql fashionthing_dev="psql -d fashionthing_test -U stitchfix_owner -W"
+alias psql stitchfix_dev="psql -d stitchfix_dev -U stitchfix_owner -W"
+alias psql stitchfix_test="psql -d stitchfix_test -U stitchfix_owner -W"
