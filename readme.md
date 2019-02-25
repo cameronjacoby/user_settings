@@ -2,8 +2,8 @@
 
 ## Includes:
 
-* Sublime:
-	* Snippets
-	* Example Preferences
-* Example Git Config
-* Example ZSH Config
+- Example Git Config
+- Example ZSH Config
+- Sublime Text:
+  - Example Preferences
+  - Snippets

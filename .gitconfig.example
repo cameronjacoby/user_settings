@@ -1,0 +1,5 @@
+[core]
+  editor = subl -n -w
+[user]
+	name = Cameron Jacoby
+	email = cameron.jacoby@gmail.com

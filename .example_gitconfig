@@ -1,8 +1,0 @@
-[user]
-  name = cameronjacoby
-  email = cameron.jacoby@gmail.com
-[credential]
-  helper = cache
-[filter "media"]
-  clean = git-media-clean %f
-  smudge = git-media-smudge %f
