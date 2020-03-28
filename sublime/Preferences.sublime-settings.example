@@ -3,17 +3,26 @@
   "caret_extra_bottom": 0,
   "caret_extra_top": 0,
   "caret_extra_width": 0,
-  "color_scheme": "Packages/Materialize/schemes/Material Spacegray Light.tmTheme",
+  "color_scheme": "Packages/Materialize/schemes/Material Primer Light.tmTheme",
+  "draw_white_space": "none",
   "ensure_newline_at_eof_on_save": true,
   "font_face": "Menlo",
   "font_size": 14,
-  "indent_guide_options": ["draw_normal", "draw_active"],
+  "ignored_packages":
+  [
+    "Vintage"
+  ],
+  "indent_guide_options":
+  [
+    "draw_normal",
+    "draw_active"
+  ],
   "line_padding_bottom": 3,
   "line_padding_top": 3,
   "overlay_scroll_bars": "enabled",
   "save_on_focus_lost": true,
   "tab_size": 2,
-  "theme": "Material Spacegray Light.sublime-theme",
+  "theme": "Material Primer Light.sublime-theme",
   "translate_tabs_to_spaces": true,
   "trim_trailing_white_space_on_save": true
 }
