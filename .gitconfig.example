@@ -1,10 +1,18 @@
+[commit]
+  template = /Users/cameronjacoby/.stCommitMsg
 [core]
   editor = subl -n -w
+  excludesfile = /Users/cameronjacoby/.gitignore_global
+[difftool "sourcetree"]
+  cmd = opendiff \"$LOCAL\" \"$REMOTE\"
 [filter "lfs"]
   process = git-lfs filter-process
   required = true
   clean = git-lfs clean -- %f
   smudge = git-lfs smudge -- %f
+[mergetool "sourcetree"]
+  cmd = /Applications/Sourcetree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
+  trustExitCode = true
 [user]
   name = Cameron Jacoby
   email = cameron.jacoby@gmail.com
