@@ -101,6 +101,14 @@ export PATH=$PATH:/Applications/Sublime\ Text.app/Contents/SharedSupport/bin
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
 alias gaa="git add ."
+alias gch="git checkout"
 alias gcm="git commit -m"
 alias gd="git diff"
+alias gpo="git push origin"
 alias gs="git status"
+
+# Add RVM to PATH for scripting. Make sure this is the last PATH variable change.
+export PATH="$PATH:$HOME/.rvm/bin"
+
+# heroku autocomplete setup
+HEROKU_AC_ZSH_SETUP_PATH=/Users/cameronjacoby/Library/Caches/heroku/autocomplete/zsh_setup && test -f $HEROKU_AC_ZSH_SETUP_PATH && source $HEROKU_AC_ZSH_SETUP_PATH;
